@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="142257" started-at="2021-11-14T10:54:12 IST" finished-at="2021-11-14T10:56:34 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateContactTest.createContact()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="createContact" class="com.vtiger.pomtest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.createOrganization()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="createOrganization" class="com.vtiger.pomtest.CreateOrganizationTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateContactTest.createContactWithOrgName()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="createContactWithOrgName" class="com.vtiger.pomtest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.createOrganizationWithIndustry_Type()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="createOrganizationWithIndustry_Type" class="com.vtiger.pomtest.CreateOrganizationTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Command line test" duration-ms="142257" started-at="2021-11-14T10:54:12 IST" finished-at="2021-11-14T10:56:34 IST">
+      <class name="com.vtiger.pomtest.CreateContactTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configBS" is-config="true" duration-ms="11" started-at="2021-11-14T10:54:12 IST" finished-at="2021-11-14T10:54:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configBC" is-config="true" duration-ms="5480" started-at="2021-11-14T10:54:12 IST" finished-at="2021-11-14T10:54:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configBM" is-config="true" duration-ms="4786" started-at="2021-11-14T10:54:17 IST" finished-at="2021-11-14T10:54:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="createContact" duration-ms="36541" started-at="2021-11-14T10:54:22 IST" finished-at="2021-11-14T10:54:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configAM" is-config="true" duration-ms="2499" started-at="2021-11-14T10:54:59 IST" finished-at="2021-11-14T10:55:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configBM" is-config="true" duration-ms="2658" started-at="2021-11-14T10:55:01 IST" finished-at="2021-11-14T10:55:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactWithOrgName()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="createContactWithOrgName" duration-ms="24885" started-at="2021-11-14T10:55:04 IST" finished-at="2021-11-14T10:55:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgName -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configAM" is-config="true" duration-ms="1359" started-at="2021-11-14T10:55:29 IST" finished-at="2021-11-14T10:55:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configAC" is-config="true" duration-ms="148" started-at="2021-11-14T10:55:30 IST" finished-at="2021-11-14T10:55:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.vtiger.pomtest.CreateContactTest@30a3107a]" name="configAS" is-config="true" duration-ms="1" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.vtiger.pomtest.CreateContactTest -->
+      <class name="Practice.CreateOrganizationWithIndustryTypeTest">
+        <test-method status="PASS" signature="createOrganizationCreateOrganizationWithIndustryType()[pri:0, instance:Practice.CreateOrganizationWithIndustryTypeTest@78e67e0a]" name="createOrganizationCreateOrganizationWithIndustryType" duration-ms="27972" started-at="2021-11-14T10:56:06 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationCreateOrganizationWithIndustryType -->
+      </class> <!-- Practice.CreateOrganizationWithIndustryTypeTest -->
+      <class name="Practice.TestNG">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Practice.TestNG@bd8db5a]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2021-11-14T10:54:12 IST" finished-at="2021-11-14T10:54:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Practice.TestNG@bd8db5a]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-11-14T10:54:12 IST" finished-at="2021-11-14T10:54:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Practice.TestNG@bd8db5a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Practice.TestNG@bd8db5a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="atest()[pri:0, instance:Practice.TestNG@bd8db5a]" name="atest" duration-ms="1" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Practice.TestNG@bd8db5a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Practice.TestNG@bd8db5a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="xtest()[pri:0, instance:Practice.TestNG@bd8db5a]" name="xtest" duration-ms="0" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xtest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Practice.TestNG@bd8db5a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Practice.TestNG@bd8db5a]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Practice.TestNG@bd8db5a]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Practice.TestNG@bd8db5a]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-11-14T10:56:34 IST" finished-at="2021-11-14T10:56:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Practice.TestNG -->
+      <class name="com.vtiger.pomtest.CreateOrganizationTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="configBC" is-config="true" duration-ms="4276" started-at="2021-11-14T10:55:30 IST" finished-at="2021-11-14T10:55:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="configBM" is-config="true" duration-ms="3191" started-at="2021-11-14T10:55:34 IST" finished-at="2021-11-14T10:55:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrganization()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="createOrganization" duration-ms="11091" started-at="2021-11-14T10:55:38 IST" finished-at="2021-11-14T10:55:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="configAM" is-config="true" duration-ms="1529" started-at="2021-11-14T10:55:49 IST" finished-at="2021-11-14T10:55:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="configBM" is-config="true" duration-ms="2526" started-at="2021-11-14T10:55:50 IST" finished-at="2021-11-14T10:55:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrganizationWithIndustry_Type()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="createOrganizationWithIndustry_Type" duration-ms="11579" started-at="2021-11-14T10:55:53 IST" finished-at="2021-11-14T10:56:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithIndustry_Type -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="configAM" is-config="true" duration-ms="1504" started-at="2021-11-14T10:56:04 IST" finished-at="2021-11-14T10:56:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.pomtest.CreateOrganizationTest@3043fe0e]" name="configAC" is-config="true" duration-ms="152" started-at="2021-11-14T10:56:06 IST" finished-at="2021-11-14T10:56:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.pomtest.CreateOrganizationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
