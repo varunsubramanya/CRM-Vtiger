@@ -24,7 +24,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.4.0</version>
-			
+
 		</dependency>
 
 
@@ -41,6 +41,14 @@
 			<artifactId>poi</artifactId>
 			<version>3.17</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.8</version>
+		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
@@ -97,8 +105,8 @@
 				</pluginManagement>
 			</build>
 		</profile>
-	
-	<profile>
+
+		<profile>
 			<id>Parallel</id>
 			<build>
 				<pluginManagement>
@@ -116,8 +124,8 @@
 					</plugins>
 				</pluginManagement>
 			</build>
-		</profile>	
-	
+		</profile>
+
 	</profiles>
 
 
