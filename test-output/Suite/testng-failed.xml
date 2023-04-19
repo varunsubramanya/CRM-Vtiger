@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.pomtest.CreateContactTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="createContactWithOrgName"/>
+          <include name="organization"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createContact"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.vtiger.pomtest.CreateContactTest -->
+      <class name="com.vtiger.pomtest.CreateOrganizationTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createOrganization"/>
+          <include name="configBM"/>
+          <include name="createOrganizationWithIndustry_Type"/>
+        </methods>
+      </class> <!-- com.vtiger.pomtest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
